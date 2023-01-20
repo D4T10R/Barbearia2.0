@@ -82,3 +82,13 @@ nav a:hover {
 	font-size: 27px;
 }
 
+footer {
+	padding: 20px;
+	text-align: center;
+	color: white;
+	background: url(bg.jpg);
+}
+
+footer p {
+	margin-top: 10px;
+}
