@@ -33,6 +33,11 @@ nav a{
 	text-decoration: none; /* tira a decoracao */
 }
 
+nav a:hover {
+	color: #C78C19;
+	text-decoration: underline;
+}
+
 .produtos {
 	width: 940px;  /* tamanho fixo da lista */
 	margin: 0 auto; /* centraliza o conteudo */
@@ -51,7 +56,7 @@ nav a{
 	border-radius: 10px;
 }
 .produtos h2 {
-	font-size: 27px;
+	font-size: 20px;
 	font-weight: bold; /* peso da fonte */
 }
 
@@ -64,3 +69,16 @@ nav a{
 	font-weight: bold;
 	margin-top: 10px;
 }
+
+.produtos li:hover {
+	border-color: #C78C19
+}
+
+.produtos li:active {
+	border-color: #088C19
+}
+
+.produtos li:hover h2 {
+	font-size: 27px;
+}
+
