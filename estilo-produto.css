@@ -44,18 +44,19 @@ nav a{
 	text-align: center; /* centraliza o texto no mesmo conteudo */ 
 	width: 30%; /* largura 30% */
 	vertical-align: top; /* ponto centraliza os blocos no topo */ 
-	margin: 0 1%; /* espaçamento externo 0 para cima e para baixo, 1% para os lados */
+	margin: 0 1.4%; /* espaçamento externo 0 para cima e para baixo, 1% para os lados */
 	padding: 30px 20px; /* espacamento interno 30 para cima e baixo, 20 para os lados */
 	box-sizing: border-box; /* faz o bloco ficar com o tamanho fixo do width passado */
-
+	border: 2px solid #000000; /* faz uma borda passando: TAMANHO, TIPO, COR */
+	border-radius: 10px;
 }
 .produtos h2 {
-	font-size: 30px;
+	font-size: 27px;
 	font-weight: bold; /* peso da fonte */
 }
 
 .descricao {
-	font-size: 18px;
+	font-size: 17px;
 }
 
 .preco{
